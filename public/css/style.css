@@ -1,0 +1,128 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/*
+----------------------------------------------
+                Custom Styles
+----------------------------------------------
+*/
+
+.big-title{
+    font-weight: 900;
+}
+
+.title{
+    font-weight: 700;
+}
+
+.home-card .card-header{
+    color: white;
+}
+
+hr-break{
+    width: 40%;
+    height: 2px;
+    background: white;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.my-icons{
+    width: 160px;
+    height: 120px;
+}
+
+.container-icon{
+    width: 100%;
+}
+
+.fa-blue{
+    color: blue;
+}
+
+/*
+----------------------------------------------
+                Colors
+----------------------------------------------
+*/
+
+.stylish-color-dark{
+    background: #212121;
+}
+
+.blue{
+    color: #084b63;
+}
+
+.green{
+    color: #044528;
+}
+
+.purple{
+    color: #4e0465;
+}
+
+.bg-blue{
+    background: #0999f7;
+}
+
+.bg-red{
+    background: red;
+}
+
+.bg-purple{
+    background: purple;
+}
+
+.bg-gray{
+    background: gray;
+}
+
+.bg-white{
+    background: white;
+}
+
+.bg-darkgreen{
+    background: #013e05;
+}
+
+.bg-darkblue{
+    background: #0f2c5a;
+}
+
+.bg-darkpurple{
+    background: #530658;
+}
+
+.bg-darkyellow{
+    background: #615b04;
+}
+
+.white{
+    color: white;
+}
+
+.audio{
+    width: 100%;
+    height: 50px;
+}
+
+.ml-3{
+    margin-left: 3rem;
+}
+
+.card-logo{
+    width: 100%;
+    position: unset;
+}
+
+.bg12{
+    background-image: url('/storage/app/public/icons/hands.jpg');
+    position: absolute;
+}
+
+footer{
+    color: white;
+}
