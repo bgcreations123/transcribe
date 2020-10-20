@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Forte | Grader Dashboard</title>
+    <title>{{ config('app.name') }} | Grader Dashboard</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
@@ -33,9 +33,9 @@
         <!-- Logo -->
         <a href="/freelance" class="logo">
             <!-- mini logo for sidebar mini 50x50 pixels -->
-            <span class="logo-mini"><b>FORTE</b> | Grader</span>
+            <span class="logo-mini"><b>{{ config('app.name') }}</b> | Grader</span>
             <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg"><b>FORTE</b> | Grader</span>
+            <span class="logo-lg"><b>{{ config('app.name') }}</b> | Grader</span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top">
@@ -65,7 +65,7 @@
 
                                 </ul>
                             </li>
-                            <li class="footer"><a href="#">&copy; KVTC</a></li>
+                            <li class="footer"><a href="#">&copy; {{ config('app.name') }}</a></li>
                         </ul>
                     </li>
 
@@ -179,9 +179,9 @@
 
     <footer class="main-footer">
         <div class="pull-right hidden-xs">
-            <b>FORTE</b>
+            <b>{{ config('app.name') }}</b>
         </div>
-        <strong>Copyright &copy; 2018-<?= date('Y');?> </strong> All rights
+        <strong>Copyright &copy; 2019-<?= date('Y');?> </strong> All rights
         reserved.
     </footer>
 

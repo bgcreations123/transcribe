@@ -6,10 +6,10 @@
     </div>
     <div class="container">
         <div class="card">
-            <div class="card-header">Forte Subtitle</div>
+            <div class="card-header">{{ config('app.name') }} Subtitle</div>
             <div class="card-body">
                 <p>
-                    Forte's subtitle translator service helps your video content reach a global audience.
+                    {{ config('app.name') }}'s subtitle translator service helps your video content reach a global audience.
                     When you add foreign subtitles to videos, more viewers can enjoy your content—regardless of the language they speak.
                     Foreign subtitles are displayed as text on the screen and represent a translation of the dialogue between characters. When you add foreign subtitles to a video, you immediately broaden its potential reach. Foreign subtitles not only expand the audience of a production, but they also boost search rankings, discoverability, and viewer engagement.
                     To help video producers maximize the potential of their content, we can add foreign subtitles to any video. Our easy-to-use subtitling service guarantees quality translations done by expert translators and fast turnaround at an affordable rate.
@@ -28,7 +28,7 @@
             </div>
             <div class="col-md-4">
                 <i class="fas fa-walking mt-3 mb-3 fa-3x blue"></i>
-                <h3 class="blue">Forte Professionals Go to Work</h3>
+                <h3 class="blue">{{ config('app.name') }} Professionals Go to Work</h3>
                 <p>Our 1,000+ professional translators subtitle all speech and atmospherics.</p>
             </div>
             <div class="col-md-4">
@@ -39,7 +39,7 @@
         </div>
         <hr>
         <h4>Adding foreign subtitles to your video doesn’t have to be a complicated process.</h4>
-        <p>Our team of professional subtitlers is ready to get to work as soon as you submit your order. We can help you add subtitles in multiple languages and file types. Use Forte’s services to add foreign subtitles to your video. Our translation and subtitling experts are available 24/7 to accurately translate your audio into the language that you need.</p>
+        <p>Our team of professional subtitlers is ready to get to work as soon as you submit your order. We can help you add subtitles in multiple languages and file types. Use {{ config('app.name') }}’s services to add foreign subtitles to your video. Our translation and subtitling experts are available 24/7 to accurately translate your audio into the language that you need.</p>
     </div>
     <hr>
     <div class="container mt-3">

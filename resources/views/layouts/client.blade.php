@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Forte | Client Dashboard</title>
+    <title>{{ config('app.name') }} | Client Dashboard</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.7 -->
@@ -33,9 +33,9 @@
         <!-- Logo -->
         <a href="/client" class="logo">
             <!-- mini logo for sidebar mini 50x50 pixels -->
-            <span class="logo-mini"><b>FORTE</b> | Client</span>
+            <span class="logo-mini"><b>{{ config('app.name') }}</b> | Client</span>
             <!-- logo for regular state and mobile devices -->
-            <span class="logo-lg"><b>FORTE</b> | Client</span>
+            <span class="logo-lg"><b>{{ config('app.name') }}</b> | Client</span>
         </a>
         <!-- Header Navbar: style can be found in header.less -->
         <nav class="navbar navbar-static-top">
@@ -65,7 +65,7 @@
 
                                 </ul>
                             </li>
-                            <li class="footer"><a href="#">&copy; KVTC</a></li>
+                            <li class="footer"><a href="#">&copy; {{ config('app.name') }}</a></li>
                         </ul>
                     </li>
 
@@ -181,9 +181,9 @@
 
     <footer class="main-footer">
         <div class="pull-right hidden-xs">
-            <b>FORTE</b>
+            <b>{{ config('app.name') }}</b>
         </div>
-        <strong>Copyright &copy; 2018-<?= date('Y');?> </strong> All rights
+        <strong>Copyright &copy; 2019-<?= date('Y');?> </strong> All rights
         reserved.
     </footer>
 

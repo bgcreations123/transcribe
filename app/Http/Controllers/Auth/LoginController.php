@@ -30,6 +30,8 @@ class LoginController extends Controller
    //protected function redirectTo()
    protected function authenticated( $request, $user)
     {
+        $app_name = config('app.name');
+
         if ($user->role == 'Admin') {
             return redirect('/admin');
         } else if ($user->role == 'Customer') {
@@ -38,7 +40,7 @@ class LoginController extends Controller
             return redirect('/project');
         }  else if ($user->role == 'Grader') {
             return redirect('/grader');
-        } else return redirect('/login')->with('error', 'Role not defined. Contact info@forte.com for more information regarding your login.');
+        } else return redirect('/login')->with('error', 'Role not defined. Contact info@'.$app_name.'.com for more information regarding your login.');
     }
 
     /**

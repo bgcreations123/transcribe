@@ -46,7 +46,7 @@
 
             </div>
             <div class="card-footer">
-                <p class="text-center">&copy; <?= date('Y'); ?> Forte Ltd.</p>
+                <p class="text-center">&copy; <?= date('Y'); ?> {{ config('app.name') }} Ltd.</p>
             </div>
         </div>
     </div>

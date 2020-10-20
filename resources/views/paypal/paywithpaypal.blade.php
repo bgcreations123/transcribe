@@ -27,7 +27,7 @@
     	  <div class="w3-container w3-teal w3-padding-16">Paywith Paypal</div>
     	  {{ csrf_field() }}
     	  <h2 class="w3-text-blue">Payment Form</h2>
-    	  <p>Forte-PayPal</p>
+    	  <p>{{ config('app.name') }}-PayPal</p>
     	  <label class="w3-text-blue"><b>Enter Amount</b></label>
     	  <input class="w3-input w3-border" id="amount" type="text" name="amount"></p>
     	  <button class="w3-btn w3-blue">Pay with PayPal</button>

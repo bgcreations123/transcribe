@@ -8,6 +8,7 @@ class CreateJobsTable extends Migration
 {
     /**
      * Run the migrations.
+     *`user_id`, `file_name`, `project_id`, `name`, `length`, `accent`, `amount_per_minute`, `total_amount`, `due_in`, `no_of_speakers`, `title`, `instructions`, `job_type`, `project_type`, `subject`,
      *
      * @return void
      */
@@ -15,6 +16,19 @@ class CreateJobsTable extends Migration
     {
         Schema::create('jobs', function (Blueprint $table) {
             $table->bigIncrements('id');
+            $table->integer('user_id');
+            $table->string('file_name');
+            $table->integer('project_id');
+            $table->string('name');
+            $table->integer('length');
+            $table->string('accent');
+            $table->string('amount_per_minute');
+            $table->string('total_amount');
+            $table->date('due_in');
+            $table->integer('no_of_speakers');
+            $table->string('title');
+            $table->text('instructions');
+            $table->string('job_type');
             $table->timestamps();
         });
     }

@@ -11,12 +11,12 @@
 
                 </h5>
                 <p>
-                        Customer service and satisfaction is key to Forte. Apart from ensuring you have safe and secure transactions, we pride in customer satisfaction and a seamless experience using our services thus we are reachable on phone and online to address any of your concerns. We also offer dispute resolution incase our clients (customers & freelancers) have a misunderstanding and strive to find solutions even if it falls outside of normal company protocol.
+                        Customer service and satisfaction is key to {{ config('app.name') }}. Apart from ensuring you have safe and secure transactions, we pride in customer satisfaction and a seamless experience using our services thus we are reachable on phone and online to address any of your concerns. We also offer dispute resolution incase our clients (customers & freelancers) have a misunderstanding and strive to find solutions even if it falls outside of normal company protocol.
                 </p>
 
             </div>
             <div class="card-footer">
-                <p class="text-center">&copy; <?= date('Y'); ?> Forte Ltd.</p>
+                <p class="text-center">&copy; <?= date('Y'); ?> {{ config('app.name') }}</p>
             </div>
         </div>
     </div>

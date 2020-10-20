@@ -4,7 +4,7 @@
     <div class="container">
         <div class="card">
             <div class="card-header text-center">
-              Why Forte
+              Why {{ config('app.name') }}
             </div>
             <div class="card-body">
                 <h5 class="card-title text-center blue">
@@ -15,7 +15,7 @@
                 </p>
             </div>
             <div class="card-footer">
-                <p class="text-center">&copy; <?= date('Y'); ?> Forte Ltd.</p>
+                <p class="text-center">&copy; <?= date('Y'); ?> {{ config('app.name') }} Ltd.</p>
             </div>
         </div>
     </div>

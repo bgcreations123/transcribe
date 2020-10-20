@@ -3,7 +3,7 @@
 @section('content')
     <div class="container-fluid mt-3">
         <div class="alert alert-warning alert-dismissible fade show" role="alert">
-            <strong>Welcome to Forte Network!</strong> There are currently <span class="green"> <strong>{{$project}}</strong></span> Jobs available.
+            <strong>Welcome to {{ config('app.name') }} Network!</strong> There are currently <span class="green"> <strong>{{$project}}</strong></span> Jobs available.
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
             <span aria-hidden="true">&times;</span>
         </button>

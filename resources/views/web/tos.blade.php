@@ -11,8 +11,8 @@
                     OVERVIEW
                 </h5>
                 <p>
-                    This website is operated by Forte Limited. Throughout the site, the terms “we”, “us” and
-                    “our” refer to Forte Limited. Forte Limited offers this website, including all
+                    This website is operated by {{ config('app.name') }} Limited. Throughout the site, the terms “we”, “us” and
+                    “our” refer to {{ config('app.name') }} Limited. {{ config('app.name') }} Limited offers this website, including all
                     information, tools and services available from this site to you, the user, conditioned upon
                     your acceptance of all terms, conditions, policies and notices stated here. By visiting our
                     site and/ or purchasing via our platform you engage in our “Service” and agree to be bound
@@ -92,7 +92,7 @@
                 </p>
             </div>
             <div class="card-footer">
-                <p class="text-center">&copy; <?= date('Y'); ?> Forte Ltd.</p>
+                <p class="text-center">&copy; <?= date('Y'); ?> {{ config('app.name') }} Ltd.</p>
             </div>
         </div>
     </div>

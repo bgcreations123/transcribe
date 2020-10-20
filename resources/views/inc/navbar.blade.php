@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="/project">FORTE</a>
+        <a class="navbar-brand" href="/project">{{ config('app.name') }}</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -72,7 +72,7 @@
       <div class="modal-content">
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Forte Style Guide</h4>
+          <h4 class="modal-title">{{ config('app.name') }} Style Guide</h4>
         </div>
         <div class="modal-body">
           <p>Some text in the modal.</p>

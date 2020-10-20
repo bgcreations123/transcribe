@@ -57,7 +57,7 @@
         </div>
     </div>
     <div class="container-fluid mt-4 bg-gray text-center white">
-        <h3 class="title pt-5">Why Forte?</h3>
+        <h3 class="title pt-5">Why {{ config('app.name') }}?</h3>
         <div class="row mt-5">
             <div class="col-md-4">
             <img src="{{asset('/storage/icons/cash.png')}}" class="my-icons mt-2 mb-4">
@@ -202,7 +202,7 @@
                     <img src="{{asset('/storage/icons/record.png')}}" class="container-icon">
                 </div>
                 <div class="col-md-6">
-                    <h2><b>Forte Voice Recorder</b></h2>
+                    <h2><b>{{ config('app.name') }} Voice Recorder</b></h2>
                     <p class="mt-3">
                         Recording on the go? Our Voice Recorder app was built for you. After transcribing millions of audio and video files, we understand that our customers need more than a static transcript. First, we learned that customers need a convenient audio recorder that they could use without worrying about quality or reliability. We also learned that people want a quick way to transcribe their audio notes into shareable transcripts. With that in mind, we created an app for iPhone and Android that does it all in one place. Keep your audio files organized and one tap away from full transcription.
                     </p>

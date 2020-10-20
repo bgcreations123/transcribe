@@ -12,7 +12,7 @@
             <div class="col-md-4 mx-auto">
 
               <!-- Content -->
-              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">FORTE LIMITED</h5>
+              <h5 class="font-weight-bold text-uppercase mt-3 mb-4">{{ config('app.name') }}</h5>
               <p>Here you can use rows and columns to organize your footer content. Lorem ipsum dolor sit amet,
                 consectetur
                 adipisicing elit.</p>
@@ -56,7 +56,7 @@
 
               <ul class="list-unstyled">
                 <li>
-                  <a href="/why_forte">Why Forte?</a>
+                  <a href="/why_forte">Why {{ config('app.name') }}?</a>
                 </li>
                 <li>
                   <a href="/transcription">Transcription</a>
@@ -109,7 +109,7 @@
         <!-- Call to action -->
         <ul class="list-unstyled list-inline text-center py-2">
           <li class="list-inline-item">
-            <h5 class="mb-1">Become Forte Freelancer</h5>
+            <h5 class="mb-1">Become {{ config('app.name') }} Freelancer</h5>
           </li>
           <li class="list-inline-item">
             <a href="/login" class="btn btn-danger btn-rounded">Sign up!</a>
@@ -150,7 +150,7 @@
         <!-- Social buttons -->
 
         <!-- Copyright -->
-        <div class="footer-copyright bg-blue text-center py-3">© <?= date('Y'); ?> Forte,   All Rights Reserved.
+        <div class="footer-copyright bg-blue text-center py-3">© <?= date('Y'); ?> {{ config('app.name') }},   All Rights Reserved.
         </div>
         <!-- Copyright -->
 

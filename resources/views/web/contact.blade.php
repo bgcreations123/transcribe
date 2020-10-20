@@ -16,7 +16,7 @@
                                                 <div class="card border-primary rounded-0">
                                                     <div class="card-header p-0">
                                                         <div class="bg-info text-white text-center py-2">
-                                                            <h3><i class="fa fa-envelope"></i> Forte Contact Panel</h3>
+                                                            <h3><i class="fa fa-envelope"></i> {{ config('app.name') }} Contact Panel</h3>
                                                             <p class="m-0">Feel free to contact us anytime.</p>
                                                         </div>
                                                     </div>
@@ -63,7 +63,7 @@
                             </div>
                         </div>
             </div>
-            <div class="card-footer"> <small> &copy; <?= date('Y');?>, Forte Limited. </small></div>
+            <div class="card-footer"> <small> &copy; <?= date('Y');?>, {{ config('app.name') }} </small></div>
         </div>
     </div>
 @endsection

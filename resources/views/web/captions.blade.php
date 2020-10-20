@@ -31,7 +31,7 @@
                     </div>
                     <div class="col-md-4">
                         <i class="fas fa-walking mt-3 mb-3 fa-3x blue"></i>
-                        <h3 class="blue">Forte Professionals Go to Work</h3>
+                        <h3 class="blue">{{ config('app.name') }} Professionals Go to Work</h3>
                         <p>
                             Our 20,000+ professionals transcribe your files 24/7 with 99%+ accuracy, 100% guaranteed.
                         </p>

@@ -28,7 +28,7 @@ class JobController extends Controller
     {
         $job = new Job();
         $lastProjectID = $job->orderBy('id', 'DESC')->pluck('id')->first();
-        $newProjectID = 'F2019/T-0' .str_pad($lastProjectID + 1, STR_PAD_LEFT);
+        $newProjectID = 'F2020/T-0' .str_pad($lastProjectID + 1, STR_PAD_LEFT);
 
         return view('clients.post_job', compact('newProjectID'));
     }
