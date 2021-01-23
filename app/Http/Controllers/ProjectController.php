@@ -11,7 +11,7 @@ class ProjectController extends Controller
 {
     public function index()
     {
-        $jobs = Job::all()->where('status', '');
+        $jobs = Job::all()->where('status', 'pending');
         $project = DB::table("jobs")->where('status', '')->count();
         return view('project.index', compact(['jobs', 'project']));
 
